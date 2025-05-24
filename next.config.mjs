@@ -9,7 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export', // 🔥 REQUIRED for static export
+  output: 'export',
+  basePath: '/xyz',
+  assetPrefix: '/xyz',
 };
 
 export default nextConfig;
