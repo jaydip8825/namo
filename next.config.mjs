@@ -9,6 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  output: 'export', // 🔥 REQUIRED for static export
+};
 
-export default nextConfig
+export default nextConfig;
